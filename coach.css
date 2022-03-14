@@ -1,0 +1,379 @@
+body{
+	padding:0;
+	margin:0;
+	background-image:url(Imagens/fundo.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+main{
+	position:relative;
+	width:70%;
+	height:100%;
+	background:transparent;
+	margin:auto;
+}
+
+a{
+	font-family:verdana;
+}
+
+#box1{
+	text-align:center;
+	width:50%;
+	height:80%;
+	background-color:#F1D7B2;
+	border:1px solid black;
+	position:center;
+	border-radius:15px;
+	margin:5%;
+	font-family:verdana;
+	padding:2%;
+	float:left;
+}
+
+#box2{
+	text-align:center;
+	width:25%;
+	height:80%;
+	background-color:#F1D7B2;
+	border:1px solid black;
+	position:center;
+	border-radius:15px;
+	margin-top:5%;
+	margin-right:5%;
+	font-family:verdana;
+	padding:2%;
+	float:left;
+}
+
+#meio{
+	position:relative;
+	width:100%;
+	height:100%;
+	clear:left;
+	float:left;
+	border-radius:40px;
+	border:;
+	/*background-image:url(Imagens/papiro1.png);*/
+	background-color:rgba(255, 255, 255, 0.5);
+	background-repeat:repeat;
+	background-size:auto;
+	margin-top:3%;
+	margin-bottom:3%;
+	z-index:3;
+}
+
+.banner{
+	width:100%;
+}
+
+.comofunciona{
+	width:50%;
+}
+
+.bnn1{
+	position:relative;
+	width:100%;
+	height:150px;
+	background-repeat:no-repeat;
+	background-size:auto;
+	float:left;
+	margin-bottom:2%;
+}
+
+.bnn2{
+	position:relative;
+	width:100%;
+	height:150px;
+	background-repeat:no-repeat;
+	background-size:auto;
+	float:left;
+	margin-bottom:2%;
+}
+
+.bnn3{
+	position:relative;
+	width:270px;
+	height:150px;
+	background-repeat:no-repeat;
+	background-size:auto;
+	float:left;
+	margin-bottom:2%;
+}
+
+.bnn4{
+	width:90%;
+	height:60px;
+}
+
+.logotipo{
+	position:relative;
+	width:50%;
+	height:100%;
+	margin-left:25%;
+}
+
+#efeitologo img{
+	transition-duration:0.5s;
+}
+
+#efeitologo img:hover{
+	transition:all 0.5s;
+	-webkit-transform:rotateY(180deg);
+}
+
+
+#menu_acima{
+	position:relative;
+	width:100%;
+	height:23px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:#430D03;
+	border:1px solid #C97D25;
+}
+
+	
+#menu_acima a{
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:75%;
+	text-decoration:none;
+	background-color:#7A071F;
+	color:#fff;
+	padding-top:5px;
+	float:left;
+	transition:2s all;
+	border:1px solid #F3BA2B;
+}
+	
+#menu_acima a:hover{	
+	background-color:#34104C;
+	color:#fff;
+	transition:2s all;
+}
+
+@font-face{
+	font-family:font1;
+	src:url(Fontes/Nunito/Nunito-Bold.ttf);
+}
+	
+
+@font-face{
+	font-family:font2;
+	src:url(Fontes/Quicksand/Quicksand.ttf);
+}
+
+@font-face{
+	font-family:font3;
+	src:url(Fontes/Exo2/Exo2-Regular.ttf);
+}
+	
+.testfont1{
+	font-family:font1;
+	font-size:30px;
+	text-align:center;
+	text-shadow:50px 20px 50px white;
+	-webkit-text-fill-color:#197189;
+	-webkit-text-stroke-color:white;
+	-webkit-text-stroke-width:1px;
+	margin-top:-1px;
+	margin-bottom:-1px;
+	word-spacing:5px;
+}
+
+.testfont3{
+	font-family:font3;
+	font-size:22px;
+	text-align:center;
+	
+}
+
+.font1{
+	font-size:10px;
+}
+
+/*
+.testfont3{
+	font-family:font3;
+	font-size:18px;
+	text-align:center;
+}*/
+
+/*
+p{
+	text-align:center;
+	margin-right:10%;
+}
+
+.space{
+	margin-right:1%;
+}
+
+li, ol, ul, dl, dt, dd{
+	color:white;
+	font-family:verdana;
+	text-align:center;
+	margin-left:10%;
+	margin-right:15%;
+	margin-bottom:1%;
+}
+
+
+.form1{
+	margin:;
+	width:90%;
+	height:100%;
+	background:-webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+	border:1px solid white;
+	text-align:center;
+	color:white;
+}*/
+
+					/*Visualização no Tablet*/
+@media only screen and (min-width:481px) {@media only screen and (max-width:720px)
+{
+	
+body{
+	margin:0;
+	background-image:url(Imagens/fundo1.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+main{
+	position:relative;
+	width:90%;
+	height:100%;
+	background:transparent;
+	margin:1%;
+	padding:0;
+}
+
+a{
+	font-family:verdana;
+}
+
+
+#box1{
+	text-align:center;
+	width:90%;
+	height:80%;
+	background-color:#F1D7B2;
+	border:1px solid black;
+	position:center;
+	border-radius:15px;
+	margin:3%;
+	font-family:verdana;
+	padding:2%;
+	float:left;
+}
+
+#box2{
+	display:none;
+}
+
+#menu_acima{
+	position:relative;
+	width:100%;
+	height:38px;
+	font-size:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:#430D03;
+	border:1px solid #C97D25;
+}
+
+iframe{
+	width:90%;
+	height:280px;
+}
+
+}
+}
+
+					/*Visualização no Smartphone*/
+					
+@media only screen and (min-width:280px) {@media only screen and (max-width:480px)
+{
+body{
+	margin:0;
+	background-image:url(Imagens/fundo2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:center center;
+}
+
+main{
+	position:relative;
+	width:90%;
+	height:100%;
+	background:transparent;
+	margin:1%;
+	padding:0;
+}
+
+a{
+	font-family:verdana;
+}
+
+.testfont1{
+	font-size:125%;
+}
+
+#box1{
+	text-align:center;
+	width:90%;
+	height:80%;
+	background-color:#F1D7B2;
+	border:1px solid black;
+	position:center;
+	border-radius:15px;
+	margin:3%;
+	font-family:verdana;
+	padding:2%;
+	float:left;
+}
+
+#box2{
+	display:none;
+}
+
+#menu_acima{
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:40px;
+	font-size:75%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:#430D03;
+	border:1px solid #C97D25;
+}
+
+.comofunciona{
+	height:50px;
+}
+
+img{
+	width:60%;
+	height:150px;
+}
+
+iframe{
+	width:90%;
+	height:280px;
+}
+
+}
+}
